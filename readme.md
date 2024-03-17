@@ -1,4 +1,4 @@
-This is a PyTorch implementation for CoDeC: Communication-Efficient Decentralized Continual Learning.
+This is the PyTorch implementation for CoDeC: Communication-Efficient Decentralized Continual Learning.
 
 The dataset for Split CIFAR-100 and 5-Datasets experiments will be automatically downloaded. Download the data for miniImageNet from the following links (taken from https://github.com/LYang-666/TRGP) and store these files in the folder named 'data_minii':
 
