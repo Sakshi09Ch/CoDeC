@@ -6,7 +6,8 @@ Training at the edge utilizes continuously evolving data generated at different 
 
 ## Requirements
 - To create the conda environment for running the experiments --> conda env create -f env_codec.yml
-Activate the environment --> conda activate codec
+
+   Activate the environment --> conda activate codec
 
 - The dataset for Split CIFAR-100 and 5-Datasets experiments will be automatically downloaded. Download the data for miniImageNet from the following links (taken from https://github.com/LYang-666/TRGP) and store these files in the folder named 'data_minii': 
 
