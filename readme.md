@@ -1,5 +1,5 @@
 # CoDeC: Communication-Efficient Decentralized Continual Learning
-This repository contains the source code associated with CoDeC: Communication-Efficient Decentralized Continual Learning.
+This repository contains the official implementation of the paper [CoDeC: Communication-Efficient Decentralized Continual Learning](https://openreview.net/pdf?id=N05OnQG1BA) published in Transactions on Machine Learning Research (TMLR).
 ## Introduction
 Training at the edge utilizes continuously evolving data generated at different locations. Privacy concerns prohibit the co-location of this spatially as well as temporally distributed data, deeming it crucial to design training algorithms that enable efficient continual learning over decentralized private data. Decentralized learning allows serverless training with spatially distributed data. A fundamental barrier in such setups is the high bandwidth cost of communicating model updates between agents. Moreover, existing works under this training paradigm are not inherently suitable for learning a temporal sequence of tasks while retaining the previously acquired knowledge. In this work, we propose CoDeC, a novel communication-efficient decentralized continual learning algorithm that addresses these challenges. We mitigate catastrophic forgetting while learning a distributed task sequence by incorporating orthogonal gradient projection within a gossip-based decentralized learning algorithm. Further, CoDeC includes a novel lossless communication compression scheme based on the gradient subspaces. We theoretically analyze the convergence rate for our algorithm and demonstrate through an extensive set of experiments that CoDeC successfully learns distributed continual tasks with minimal forgetting. The proposed compression scheme results in up to 4.8× reduction in communication costs without any loss in performance.
 
@@ -23,3 +23,19 @@ Training at the edge utilizes continuously evolving data generated at different 
 
 All authors are with Purdue University, West Lafayette, IN, USA.
 
+## References
+
+If you find this helpful, please cite our work:
+
+```
+
+@article{
+choudhary2024codec,
+title={CoDeC: Communication-Efficient Decentralized Continual Learning},
+author={Sakshi Choudhary and Sai Aparna Aketi and Gobinda Saha and Kaushik Roy},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2024},
+url={https://openreview.net/forum?id=N05OnQG1BA}
+}
+```
